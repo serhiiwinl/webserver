@@ -1,3 +1,5 @@
+package main;
+
 import org.eclipse.jetty.server.Server;
 
 /**
@@ -6,6 +8,6 @@ import org.eclipse.jetty.server.Server;
 public class Main {
     public static void main(String[] args) {
         Server server = new Server(8080);
-        System.out.println("start");
+        System.out.println("Server started");
     }
 }
